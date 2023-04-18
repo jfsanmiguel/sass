@@ -1,9 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-h1{
-    background-color: black;
-    color: white;
-}
+// variables : van siempre arriba de otro
+@import "./utilities/colors";
+@import "./utilities/typo";
+@import "./utilities/reset";
+//secciones
+@import "./sections/header";
+@import "./sections/main-index";
+@import "./sections/footer";
